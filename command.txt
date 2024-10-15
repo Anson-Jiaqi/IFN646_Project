@@ -1,6 +1,6 @@
 mkdir tmp
 java -Xmx4g -jar FlashFry-assembly-1.15.jar index  --tmpLocation ./tmp  --database Human_database  --reference GCF_000001405.26_GRCh38_genomic.fna  --enzyme spcas9ngg
 
-java -Xmx4g -jar FlashFry-assembly-1.15.jar  discover  --database chr22_cas9ngg_database  --fasta exon.fasta  --output exon.output
+java -Xmx4g -jar FlashFry-assembly-1.15.jar  discover  --database Human_database  --fasta exon.fasta  --output exon.output
 
 java -Xmx4g -jar FlashFry-assembly-1.15.jar  score  --input exon.output  --output exon.output.scored  --scoringMetrics doench2014ontarget,doench2016cfd,dangerous,hsu2013,minot  --database Human_database
