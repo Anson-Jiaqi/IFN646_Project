@@ -95,7 +95,8 @@ The code for Task 3 is contained in the Jupyter notebook file `task3.ipynb`. Ple
 
 1. Download the `task3.ipynb` file from this repository.
 2. Install the required Python libraries as per the notebook’s instructions.
-3. Execute the notebook step-by-step to perform the analysis.
+3. Execute the notebook step-by-step to create the modified references.
+4. Use the modified reference to run the [task 2](#task-2) again.
 
 ### Data
 
