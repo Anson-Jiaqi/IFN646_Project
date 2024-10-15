@@ -16,7 +16,8 @@ In this task, we will perform differential expression analysis using **DESeq2** 
 3. Follow the script provided in the code for DESeq2 and edgeR analysis.
 
 
-sessionInfo(): 
+sessionInfo():   
+![Project Diagram](sessionInfo.png)
 
 
 
