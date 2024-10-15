@@ -105,5 +105,9 @@ The data for Task 3 can also be downloaded from the same Kaggle dataset used in 
 - [Data on Kaggle](https://kaggle.com/datasets/93ebb4a1b3131a5dc93e77adf6648d2c088ab7fddb16dcada3ceeb4976e07476)
 
 ---
+For more details on FlashFry, refer to the original publication:
 
+McKenna, A., & Shendure, J. (2018). FlashFry: A fast and flexible tool for large-scale CRISPR target design. *BMC Biology, 16*(1), 74. [https://doi.org/10.1186/s12915-018-0545-0](https://doi.org/10.1186/s12915-018-0545-0)  
+
+---
 For any issues or questions, feel free to open an issue in this repository.
