@@ -1,1 +1,1 @@
-# IFN646_DATA
+# IFN646 Project  
