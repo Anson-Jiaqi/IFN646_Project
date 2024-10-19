@@ -11,9 +11,13 @@ In this task, we will perform differential expression analysis using **DESeq2** 
 
 ### Instructions
 
-1. Install necessary R packages (`DESeq2`, `edgeR`).
-2. Load the data from `count.txt` and `meta.txt`.
-3. Follow the script provided in the code for DESeq2 and edgeR analysis.
+1. Download this project and open the R script using RStudio.
+2. Install necessary R packages (`DESeq2`, `edgeR`).
+3. Load the data from `count.txt` and `meta.txt`.
+4. Run pre-process.R to check the data quality.
+5. Run edgeR.R and DESeq2.R to do the analysis.
+6. Run combine.R to combine the result from edgeR and DESeq2.
+7. All steps results will be saved as csv file in Output folder.
 
 
 sessionInfo():   
