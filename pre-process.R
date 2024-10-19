@@ -34,10 +34,19 @@ rld <- rlog(dds, blind=T)
 rld_mat <- assay(rld)
 pca <- prcomp(t(rld_mat))
 
+percentVar <- pca$sdev^2 / sum(pca$sdev^2) * 100
+
+
+
 # Create data frame with metadata and PC3 and PC4 values for input to ggplot
 df <- cbind(meta, pca$x)
-ggplot(df) + geom_point(aes(x=PC3, y=PC4, color = sampletype))
-
+#ggplot(df) + geom_point(aes(x=PC3, y=PC4, color = sampletype))
+ggplot(df, aes(x = PC3, y = PC4, color = sampletype)) +
+  geom_point() +
+  labs(title = "PCA Plot", 
+       x = paste0("PC3: ", round(percentVar[3], 2), "% variance"),
+       y = paste0("PC4: ", round(percentVar[4], 2), "% variance")) +
+  theme_minimal()
 
 ### Extract the rlog matrix from the object
 rld_mat <- assay(rld)    ## assay() is function from the "SummarizedExperiment" package that was loaded when you loaded DESeq2
